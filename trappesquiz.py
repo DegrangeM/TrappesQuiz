@@ -14,7 +14,7 @@ while True :
 		try :
 			mdp = int(b64decode(mdp))
 			mdp = hex(mdp)
-			if int(mdp[2:-1]) == n and mdp[-1:] in ('a','b','c','d') or mdp == '0x666' :
+			if (mdp[-1:] in ('a','b','c','d') and int(mdp[2:-1]) == n) or (mdp[-3:] == 'fff' and int(mdp[2:-3]) == n) :
 				reponse = mdp[-1].upper()
 				break
 			print("Erreur dans le mot de passe.")
@@ -23,7 +23,7 @@ while True :
 			print("Erreur dans le mot de passe.")
 			continue
 		break
-	if mdp == '0x666' :
+	if mdp[-3:] == 'fff' :
 		break
 	mdpOK = True
 	if n > 1 :
