@@ -37,12 +37,18 @@ Les élèves doivent exécuter le fichier `trappequiz.py`. Une fenêtre en mode 
 
 L'enseignant de son côté, exécute le fichier `generer_mdp.py` et tape le numéro de la question suivi de la lettre de la bonne réponse. Puisqu'il s'agit ici de la première question, l'enseignant devra taper 1A, 1B, 1C ou 1D. Le logiciel lui communique alors un code qu'il doit alors communiquer aux élèves (attention les majuscules et minuscules sont importantes !). Les élèves doivent alors saisir ce code sur leur ordinateur.
 
+![image](https://user-images.githubusercontent.com/53106394/172586686-c86bc550-7f05-41c0-b5a5-c88d3b5cb173.png)
+
 L'enseignant communique alors aux élèves la question et les réponses possibles (à l'écrit au tableau, à l'oral, etc.). Les élèves peuvent alors miser leur argent selon la répartition de leur choix.
+
+![image](https://user-images.githubusercontent.com/53106394/172586496-434b5b62-dd93-4ae9-986d-8746686113b2.png)
 
 Pendant ce temps, l'enseignant tape de son côté, le numéro de la question suivante suivi de la lettre de la bonne réponse, à savoir 2A, 2B, 2C ou 2D. Lorsqu'il juge que les élèves ont eu suffisement de temps pour miser leur argent, il peut éventuellement passer dans les rangs vérifier que tous les élèves ont bien validé leur mise (pour éviter la triche), puis corriger la question au tableau (ou à l'oral, etc.). Il communique alors le second code aux élèves qui le saisissent. Le logiciel indique alors à l'élève combien d'argent il a perdu sur cette question et combien il lui reste. Le jeu se poursuit ainsi de question en question.
 
 Si jamais des élèves perdent tout leur argent, un "prêt" de 100€ leur est foruni afin qu'ils puissent continuer à jouer.
 
 Lorsque l'enseignant souhaite arrêter le jeu, il saisi sur son logiciel le numéro de la question suivi de trois F. Par exemple 3FFF pour arrêter après avoir effectuer deux questions. Le jeu indique alors combien d'argent l'élève à réussi à conserver ainsi que le nombre de prêt contractés.
+
+A noter que la bonne réponse est communiquée de manière chiffrée via le mot de passe de la question. L'enseignant peut donc inventer ses questions au fur et à mesure. Attention cependant à ne pas faire d'erreur car il n'est pas possible d'annuler une question.
 
 
